@@ -1,4 +1,4 @@
-function ArrowIcon() {
+export function ArrowIcon() {
   return (
     <svg
       width="12"
@@ -46,10 +46,21 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/rogix/my-portfolio"
+            href="https://bsky.app/profile/rogix.bsky.social"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">bluesky</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/rogmxp"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">linkedin</p>
           </a>
         </li>
       </ul>

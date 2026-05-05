@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowIcon } from "./footer";
 
 const navItems = {
   "/": {
@@ -6,9 +7,6 @@ const navItems = {
   },
   "/blog": {
     name: "blog",
-  },
-  "https://www.linkedin.com/in/rogmxp": {
-    name: "linkedin",
   },
 };
 
@@ -32,6 +30,17 @@ export function Navbar() {
                 </Link>
               );
             })}
+          </div>
+
+          <div>
+            <Link
+              href="https://www.linkedin.com/in/rogmxp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1 items-center gap-2"
+            >
+              linkedin
+            </Link>
           </div>
         </nav>
       </div>
