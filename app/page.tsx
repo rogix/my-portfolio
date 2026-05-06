@@ -4,11 +4,10 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Hey, there!
+        hey, there!
       </h1>
       <p className="mb-4">
-        {`I'm software engineer with a passion for building impactful products. 
-        This is my personal blog where I share my thoughts on software development,
+        {`This is my personal blog where I share my thoughts on software development,
         programming languages, and the tech industry. I also write about my personal
         experiences and insights on being a software engineer and a human being. Feel free to reach out to me on `}
         <a
